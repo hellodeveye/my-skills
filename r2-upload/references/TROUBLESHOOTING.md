@@ -9,8 +9,10 @@ Common issues and their solutions.
 - [HTTP 404 Not Found](#http-404-not-found)
 - [Connection timeout](#connection-timeout)
 - [Config file not found](#config-file-not-found)
+- [PyYAML missing](#pyyaml-missing)
 - [Invalid YAML syntax](#invalid-yaml-syntax)
 - [Upload succeeds but file not accessible](#upload-succeeds-but-file-not-accessible)
+- [Presigned URL expired](#presigned-url-expired)
 - [Large file uploads fail](#large-file-uploads-fail)
 - [SSL/TLS errors](#ssltls-errors)
 - [Debugging tips](#debugging-tips)
@@ -186,7 +188,19 @@ python3 scripts/r2-upload.py file.jpg
 ls -la ~/.r2-upload.yml
 
 # Fix if needed
-chmod 644 ~/.r2-upload.yml
+chmod 600 ~/.r2-upload.yml
+```
+
+## PyYAML missing
+
+### Symptoms
+```
+Error: PyYAML is required. Install with: python3 -m pip install pyyaml
+```
+
+### Solution
+```bash
+python3 -m pip install pyyaml
 ```
 
 ## Invalid YAML syntax
@@ -201,7 +215,7 @@ yaml.scanner.ScannerError: mapping values are not allowed here
 **1. Validate YAML**
 ```bash
 # Using Python
-python3 -c "import yaml; yaml.safe_load(open('~/.r2-upload.yml'))"
+python3 -c "import os,yaml; yaml.safe_load(open(os.path.expanduser('~/.r2-upload.yml')))"
 
 # Using yamllint
 yamllint ~/.r2-upload.yml
@@ -243,11 +257,10 @@ public_url: https://cdn.example.com
 public_url: https://xxx.r2.cloudflarestorage.com
 ```
 
-**2. Bucket not public**
-R2 objects are private by default. Either:
-- Use `--public` flag (generates public URL for public buckets)
-- Enable public access at bucket level (not recommended)
-- Use presigned URLs instead
+**2. Public vs presigned URL mismatch**
+The CLI returns a **presigned URL by default**. If you need a CDN/public URL, pass `--public`.
+
+If your bucket is private, presigned URLs are the correct approach. Public URLs will 403 unless the bucket is public or behind a CDN that serves it.
 
 **3. Wrong bucket in URL**
 Check that `public_url` includes the bucket name if needed:
@@ -272,7 +285,10 @@ Error: Request Entity Too Large
 
 ### Solutions
 
-**1. Stream upload for large files**
+**1. Script reads files into memory**
+This tool loads the entire file into memory. For very large files, use a provider SDK or CLI with multipart upload.
+
+**2. Stream upload for large files (advanced)**
 Modify script to use streaming:
 ```python
 # Instead of reading entire file
@@ -322,26 +338,35 @@ ctx.verify_mode = ssl.CERT_NONE
 urllib.request.urlopen(req, context=ctx)
 ```
 
+## Presigned URL expired
+
+### Symptoms
+```
+AccessDenied: Request has expired
+```
+
+### Solutions
+
+- Increase expiration time (max 7 days):
+  ```bash
+  python3 scripts/r2-upload.py file.jpg --expires 3600
+  ```
+- Generate a fresh presigned URL
+
 ## Debugging tips
 
 ### Enable verbose logging
 
 ```python
-import urllib.request
 import http.client
-
 http.client.HTTPConnection.debuglevel = 1
 ```
 
-### Test with curl first
+### Prefer provider CLIs for validation
 
 ```bash
-# Test credentials
-curl -X PUT \
-  -H "Authorization: AWS $ACCESS_KEY:$SIGNATURE" \
-  -H "Content-Type: image/jpeg" \
-  --data-binary @test.jpg \
-  "https://xxx.r2.cloudflarestorage.com/my-bucket/test.jpg"
+# AWS CLI (works for AWS S3 and many S3-compatible providers)
+aws s3 cp test.jpg s3://my-bucket/
 ```
 
 ### Check request signature manually
@@ -377,4 +402,4 @@ If issues persist:
    ```
 
 3. **Enable request logging in script**
-   Add `--verbose` flag for detailed output
+   Add temporary print statements for canonical request and string-to-sign

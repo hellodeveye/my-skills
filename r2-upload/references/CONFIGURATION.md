@@ -6,6 +6,7 @@ Complete configuration examples for different S3-compatible storage providers.
 
 ## Table of contents
 
+- [Conventions](#conventions)
 - [Cloudflare R2](#cloudflare-r2)
   - [Getting R2 credentials](#getting-r2-credentials)
   - [Custom domain (optional)](#custom-domain-optional)
@@ -19,6 +20,13 @@ Complete configuration examples for different S3-compatible storage providers.
 - [Multiple buckets](#multiple-buckets)
 - [Security best practices](#security-best-practices)
 
+## Conventions
+
+- `endpoint` should be the provider API base URL **without** bucket path.
+- If `public_url` is omitted, it defaults to `endpoint/<bucket_name>` (path-style).
+- For custom domains mapped to a bucket, set `public_url` to the domain root (no bucket segment).
+- Optional `session_token` is supported for temporary credentials.
+
 ## Cloudflare R2
 
 ```yaml
@@ -31,6 +39,7 @@ buckets:
     secret_access_key: your_secret_access_key
     bucket_name: my-bucket
     public_url: https://cdn.example.com        # Optional: custom domain
+    # session_token: optional for temporary credentials
     region: auto
 ```
 
@@ -63,6 +72,7 @@ buckets:
     endpoint: https://s3.us-east-1.amazonaws.com
     access_key_id: AKIAIOSFODNN7EXAMPLE
     secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+    # session_token: optional for temporary credentials
     bucket_name: my-company-assets
     public_url: https://my-company-assets.s3.amazonaws.com
     region: us-east-1
