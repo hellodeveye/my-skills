@@ -1,6 +1,25 @@
 # Blog Images Workflow
 
-Complete workflow for fetching article images and uploading to R2, as used in the tech-news-blog skill.
+Complete workflow for fetching article images and uploading to R2, as used in the tech-news skill.
+
+> Notes:
+> - Examples assume you run code from the r2-upload skill directory or add it to `PYTHONPATH`.
+> - Replace `/path/to/r2-upload` with your local path if needed.
+
+## Table of contents
+
+- [Overview](#overview)
+- [Complete example](#complete-example)
+- [Helper functions](#helper-functions)
+  - [Extract og:image from HTML](#extract-ogimage-from-html)
+  - [Batch process multiple articles](#batch-process-multiple-articles)
+- [Directory structure convention](#directory-structure-convention)
+- [Image optimization tips](#image-optimization-tips)
+  - [Before uploading](#before-uploading)
+  - [Generating responsive images](#generating-responsive-images)
+- [Integration with Hexo/Static sites](#integration-with-hexostatic-sites)
+  - [Generate markdown image syntax](#generate-markdown-image-syntax)
+  - [Hexo frontmatter with cover image](#hexo-frontmatter-with-cover-image)
 
 ## Overview
 
@@ -23,11 +42,11 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 # Import upload functions from this skill
-sys.path.insert(0, '/root/.clawdbot/skills/r2-upload/scripts')
+sys.path.insert(0, '/path/to/r2-upload/scripts')
 from upload import fetch_and_upload
 
 # Configuration
-BLOG_DATE = "2026-02-04"
+BLOG_DATE = "YYYY-MM-DD"
 R2_PREFIX = f"images/{BLOG_DATE.replace('-', '/')}"
 
 # Step 1: Define articles
@@ -131,7 +150,7 @@ def process_blog_images(articles: list[dict], date: str) -> dict[str, str]:
     
     Args:
         articles: List of {"title": str, "url": str}
-        date: Date string like "2026-02-04"
+        date: Date string like "YYYY-MM-DD"
     
     Returns:
         Dict mapping article URL to uploaded image URL
@@ -177,18 +196,18 @@ Recommended path structure for blog images:
 
 ```
 images/
-├── 2026/
-│   ├── 02/
-│   │   ├── 03/
-│   │   │   ├── 01-xcode-26-3.jpg
-│   │   │   ├── 02-qwen3-coder.jpg
-│   │   │   └── 03-agentskills.jpg
-│   │   └── 04/
-│   │       ├── 01-flashattention.jpg
-│   │       └── 02-moon-mission.jpg
-│   └── 03/
-│       └── 15/
-│           └── some-article.jpg
+├── YYYY/
+│   ├── MM/
+│   │   ├── DD/
+│   │   │   ├── 01-article-a.jpg
+│   │   │   ├── 02-article-b.jpg
+│   │   │   └── 03-article-c.jpg
+│   │   └── DD/
+│   │       ├── 01-topic-x.jpg
+│   │       └── 02-topic-y.jpg
+│   └── MM/
+│       └── DD/
+│           └── another-article.jpg
 ```
 
 This structure:

@@ -2,6 +2,23 @@
 
 Complete configuration examples for different S3-compatible storage providers.
 
+> Examples use placeholder values. Replace with your own keys, bucket names, and endpoints.
+
+## Table of contents
+
+- [Cloudflare R2](#cloudflare-r2)
+  - [Getting R2 credentials](#getting-r2-credentials)
+  - [Custom domain (optional)](#custom-domain-optional)
+- [AWS S3](#aws-s3)
+  - [S3 permissions required](#s3-permissions-required)
+- [MinIO (Self-hosted)](#minio-self-hosted)
+  - [MinIO setup](#minio-setup)
+- [Backblaze B2](#backblaze-b2)
+  - [B2 S3-compatible keys](#b2-s3-compatible-keys)
+- [Wasabi](#wasabi)
+- [Multiple buckets](#multiple-buckets)
+- [Security best practices](#security-best-practices)
+
 ## Cloudflare R2
 
 ```yaml
@@ -198,7 +215,7 @@ python3 scripts/r2-upload.py file.jpg --public
 python3 scripts/r2-upload.py file.jpg --bucket staging --public
 
 # Use backups bucket
-python3 scripts/r2-upload.py backup.zip --bucket backups --key "backups/2026/02/04/backup.zip"
+python3 scripts/r2-upload.py backup.zip --bucket backups --key "backups/YYYY/MM/DD/backup.zip"
 ```
 
 ## Security best practices

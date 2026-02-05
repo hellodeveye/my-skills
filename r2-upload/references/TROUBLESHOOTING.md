@@ -2,6 +2,20 @@
 
 Common issues and their solutions.
 
+## Table of contents
+
+- [HTTP 403 Forbidden](#http-403-forbidden)
+- [HTTP 400 Bad Request](#http-400-bad-request)
+- [HTTP 404 Not Found](#http-404-not-found)
+- [Connection timeout](#connection-timeout)
+- [Config file not found](#config-file-not-found)
+- [Invalid YAML syntax](#invalid-yaml-syntax)
+- [Upload succeeds but file not accessible](#upload-succeeds-but-file-not-accessible)
+- [Large file uploads fail](#large-file-uploads-fail)
+- [SSL/TLS errors](#ssltls-errors)
+- [Debugging tips](#debugging-tips)
+- [Getting help](#getting-help)
+
 ## HTTP 403 Forbidden
 
 ### Symptoms
