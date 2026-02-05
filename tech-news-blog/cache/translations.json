@@ -10,5 +10,186 @@
   "https://news.ycombinator.com/item?id=46890418": {
     "zh_title": "HN用户投诉：又一轮Zendesk邮件垃圾信息泛滥",
     "zh_summary": "Hacker News用户发布投诉帖，报告近期再次出现大量伪装成Zendesk或利用Zendesk服务发送的垃圾邮件，引发社区对邮件安全和平台责任的讨论。\n\n要点：\n- 用户反映收到大量声称来自Zendesk的可疑邮件，怀疑存在邮件伪造或平台被滥用情况\n- 这并非首次出现类似问题，用户质疑Zendesk的反垃圾邮件措施是否到位\n- 社区讨论聚焦于企业如何更好保护用户免受邮件欺诈侵害，以及用户应如何识别和防范此类攻击"
+  },
+  "https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been": {
+    "zh_title": "OpenClaw is what Apple intelligence should have been",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://evjang.com/2026/02/04/rocks.html": {
+    "zh_title": "As Rocks May Think",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/codecrafters-io/build-your-own-x": {
+    "zh_title": "codecrafters-io/build-your-own-x: Master programming by recreating your favorite technologies from scratch.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/freeCodeCamp/freeCodeCamp": {
+    "zh_title": "freeCodeCamp/freeCodeCamp: freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://ziglang.org/devlog/2026/#2026-01-31": {
+    "zh_title": "zig libc",
+    "zh_summary": "来自 Lobsters 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/sindresorhus/awesome": {
+    "zh_title": "sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/public-apis/public-apis": {
+    "zh_title": "public-apis/public-apis: A collective list of free APIs",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://notepad-plus-plus.org/news/hijacked-incident-info-update/": {
+    "zh_title": "Notepad++ Hijacked by State-Sponsored Hackers",
+    "zh_summary": "来自 Lobsters 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://www.fluid.sh/": {
+    "zh_title": "Claude Code for Infrastructure",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/EbookFoundation/free-programming-books": {
+    "zh_title": "EbookFoundation/free-programming-books: :books: Freely available programming books",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://www.scd31.com/posts/building-an-arcade-display-adapter": {
+    "zh_title": "Building a 24-bit arcade CRT display adapter from scratch",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://nmn.gl/blog/ai-killing-b2b-saas": {
+    "zh_title": "AI is killing B2B SaaS",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/kamranahmedse/developer-roadmap": {
+    "zh_title": "kamranahmedse/developer-roadmap: Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/jwasham/coding-interview-university": {
+    "zh_title": "jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/donnemartin/system-design-primer": {
+    "zh_title": "donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://nexy.blog/2026/01/28/cf-matrix-workers/": {
+    "zh_title": "No, Cloudflare's Matrix server isn't an earnest project",
+    "zh_summary": "来自 Lobsters 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/MaxBittker/rs-sdk": {
+    "zh_title": "RS-SDK: Drive RuneScape with Claude Code",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注",
+    "is_translated": false
+  },
+  "https://www.wsj.com/tech/ai/microsofts-pivotal-ai-product-is-running-into-big-problems-ce235b28": {
+    "zh_title": "Microsoft's Copilot chatbot is running into problems",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注",
+    "is_translated": false
+  },
+  "https://github.com/vinta/awesome-python": {
+    "zh_title": "vinta/awesome-python: An opinionated list of awesome Python frameworks, libraries, software and resources.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注",
+    "is_translated": false
+  },
+  "https://github.com/996icu/996.ICU": {
+    "zh_title": "996icu/996.ICU: Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注",
+    "is_translated": false
+  },
+  "https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle": {
+    "zh_title": "Defeating a 40-year-old copy protection dongle",
+    "zh_summary": "来自 Lobsters 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注",
+    "is_translated": false
+  },
+  "https://www.divergent-desktop.org/blog/2026/01/26/a12web/": {
+    "zh_title": "Arcan-A12: Weaving a Different Web",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://mistral.ai/news/voxtral-transcribe-2": {
+    "zh_title": "Voxtral Transcribe 2",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/awesome-selfhosted/awesome-selfhosted": {
+    "zh_title": "awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://arxiv.org/abs/2602.00294": {
+    "zh_title": "Attention at Constant Cost per Token via Symmetry-Aware Taylor Approximation",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://arstechnica.com/health/2026/02/guinea-worm-on-track-to-be-2nd-eradicated-human-disease-only-10-cases-in-2025/": {
+    "zh_title": "Guinea worm on track to be 2nd eradicated human disease; only 10 cases in 2025",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/practical-tutorials/project-based-learning": {
+    "zh_title": "practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://www.anthropic.com/news/claude-is-a-space-to-think": {
+    "zh_title": "Claude is a space to think",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://incoherency.co.uk/blog/stories/tractor.html": {
+    "zh_title": "Tractor",
+    "zh_summary": "来自 Hacker News 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://github.com/facebook/react": {
+    "zh_title": "facebook/react: The library for web and native user interfaces.",
+    "zh_summary": "来自 GitHub Trending 的热门内容。\n\n要点：\n- 详情见原文\n- 值得关注"
+  },
+  "https://brandon.wang/2026/clawdbot": {
+    "zh_title": "理性看好Clawdbot/OpenClaw的分析视角",
+    "zh_summary": "本文分享了对Clawdbot/OpenClaw项目的理性乐观分析。作者认为尽管该项目面临挑战，但在技术实现和发展潜力方面仍具有值得关注的优势。文章强调应以平衡、理性的态度评估该项目的投资价值和发展前景。\n\n要点：\n- Clawdbot/OpenClaw在技术架构上展现出创新性，具备解决特定市场痛点的能力\n- 项目开源特性和社区支持为其长期发展奠定了基础，降低了单点失败风险\n- 作者建议采取审慎乐观的态度，在认可项目潜力的同时注意控制风险敞口"
+  },
+  "https://github.com/TheAlgorithms/Python": {
+    "zh_title": "Python算法大全：TheAlgorithms开源项目详解",
+    "zh_summary": "TheAlgorithms/Python是一个备受推崇的开源项目，汇集了各种经典算法和数据结构的Python实现。该仓库旨在为学习者提供清晰、易懂的算法示例，涵盖了排序、搜索、图算法、机器学习等多个领域。作为GitHub上最受欢迎的教育类项目之一，它不仅帮助初学者掌握算法基础，也是开发者提升编程技能的宝贵资源。\n\n要点：\n- **全面的算法集合**：包含数百种经过充分测试的算法实现，从基础排序算法到复杂的机器学习算法，涵盖计算机科学各个核心领域\n- **高质量的代码标准**：每段代码都配有详细注释和文档说明，严格遵循PEP 8编码规范，便于理解和学习\n- **活跃的开源社区**：由全球开发者共同维护，持续更新和完善，是学习Python编程和算法思想的理想入门项目"
+  },
+  "https://github.com/torvalds/linux": {
+    "zh_title": "全球最大开源项目：Linux内核源代码仓库",
+    "zh_summary": "Linux内核是由Linus Torvalds于1991年发起的世界级开源项目，作为Linux操作系统的核心组件，它采用C语言编写，支持从智能手机到超级计算机的几乎所有计算设备。该仓库不仅展示了超过3000万行代码的宏伟工程，更是全球开发者协作创新的典范，持续推动着开源软件生态的发展。\n\n要点：\n- 全球规模最大的开源项目之一，代码量超过3000万行，支持超过30种硬件架构\n- 采用GPL v2开源许可证，任何人都可以自由查看、修改和分发源代码\n- 由Linus Torvalds领导维护，每年发布多个版本更新，是现代计算基础设施的基石"
+  },
+  "https://lars.ingebrigtsen.no/2026/02/02/whats-up-with-all-those-equals-signs-anyway/": {
+    "zh_title": "那些等号到底是怎么回事？",
+    "zh_summary": "本文探讨了编程语言中等号（=）的多重含义及其历史演变，解释了赋值、比较、声明等不同语境下等号语义的差异，并分析了不同编程语言在等号设计上的选择与权衡。\n\n要点：\n- 等号在编程中承担多种角色，包括赋值、比较相等性、声明绑定等不同语义\n- 不同语言对等号的设计存在显著差异，如某些语言使用单等号赋值、双等号比较、三等号严格比较\n- 等号语义的演变反映了编程语言设计思想的发展，从简单符号到更精确的表达式"
+  },
+  "https://crowprose.com/blog/competence-as-tragedy": {
+    "zh_title": "能力即悲剧",
+    "zh_summary": "本文探讨了一个悖论：在技术领域，过高的能力有时反而成为前进的障碍。当我们过于依赖已有的技能和经验时，可能会陷入固步自封的困境，拒绝学习和适应新技术、新方法。文章通过多个实际案例，分析了这种\"能力陷阱\"的表现形式，并提出了突破这一困境的思考框架。\n\n要点：\n- 技术能力的积累往往使我们倾向于重复使用熟悉的解决方案，即使面对更优选择也难以改变\n- 承认自身知识的局限性是克服\"能力陷阱\"的第一步，也是最困难的一步\n- 持续学习和保持谦逊的态度，是防止能力退化为进步阻碍的关键"
+  },
+  "https://dev.to/sylwia-lask/is-learning-css-a-waste-of-time-in-2026-nj3": {
+    "zh_title": "在2026年学习CSS是浪费时间吗？",
+    "zh_summary": "随着现代框架、组件库和实用优先CSS的兴起，学习CSS是否仍然必要成了一个备受争议的话题。本文探讨了这一问题，并指出尽管工具在进步，CSS的基础知识在web开发中仍然具有不可替代的价值。大多数开发者认为，掌握CSS核心概念有助于提升开发灵活性和效率。\n\n要点：\n- 现代CSS工具（如框架和实用库）简化了开发流程\n- 学习CSS的必要性引发了行业内的广泛讨论\n- 细节待补充"
+  },
+  "https://www.economist.com/science-and-technology/2026/01/14/why-child-prodigies-rarely-become-elite-performers": {
+    "zh_title": "神童鲜少成为精英表演者：早熟天赋与长期成就的悖论",
+    "zh_summary": "研究表明，尽管神童在早年展现出非凡的天赋和能力，但他们中很少有人最终成为各自领域的顶尖精英。这一现象揭示了早熟天赋与长期卓越成就之间存在的复杂关系，涉及心理发展、持续动力、环境支持等多重因素的综合作用。\n\n要点：\n- 神童的早期优势往往难以转化为成年后的持续竞争力，因为成功需要的不只是天赋，还包括适应性学习、心理韧性和长期专注力\n- 精英表演者的培养需要跨越数十年的持续投入，而许多神童在成长过程中面临身份认同危机和兴趣转移的挑战\n- 环境因素如教育资源、导师指导和竞争平台对神童能否持续成长至关重要，缺乏这些支持的天才往往难以突破发展瓶颈"
+  },
+  "https://pdfa.org/a-case-study-in-pdf-forensics-the-epstein-pdfs/": {
+    "zh_title": "PDF取证案例研究：Epstein相关PDF文件分析",
+    "zh_summary": "本文深入探讨了针对与Jeffrey Epstein相关PDF文件的数字取证分析技术，展示了安全研究人员如何通过分析PDF文档的元数据、创建时间戳、嵌入对象等技术细节来还原文件背后的真实信息。研究人员运用了多种专业的数字取证工具和方法，对这些具有争议性的文档进行了系统性的技术检验。\n\n要点：\n- 通过PDF文档的元数据分析、时间戳验证和嵌入对象提取等技术手段，对相关文件的来源和真实性进行科学鉴定\n- 展示了如何使用专业的PDF解析工具追踪文档的创建历史、修改记录和潜在的隐藏信息\n- 揭示了数字取证在调查复杂案件中的重要作用，以及如何通过技术手段还原电子证据的原始状态"
+  },
+  "https://reactos.org/blogs/30yrs-of-ros/": {
+    "zh_title": "",
+    "zh_summary": "\n\n要点：\n- 细节待补充\n- 细节待补充\n- 细节待补充"
+  },
+  "https://boxc.net/blog/2026/claude-code-connecting-to-local-models-when-your-quota-runs-out/": {
+    "zh_title": "Claude Code：配额用尽时连接本地模型的解决方案",
+    "zh_summary": "本文介绍了当Claude Code的API配额耗尽时，如何通过配置连接到本地运行的模型来继续使用Claude Code的方法。文章详细说明了设置过程和相关配置步骤，为开发者提供了一个实用的备选方案。\n\n要点：\n- 当Claude Code的API调用配额用尽时，用户可以通过配置Ollama等工具连接本地运行的模型\n- 该方案需要预先安装并运行本地模型服务，如Llama 3等开源模型\n- 通过修改配置文件或环境变量即可实现本地模型的无缝切换，确保开发工作不中断"
+  },
+  "https://blog.literarily-starved.com/2026/02/technology-the-nearly-perfect-usb-cable-tester-does-exist/": {
+    "zh_title": "技术文：近乎完美的USB线缆测试仪确实存在",
+    "zh_summary": "本文介绍了目前市场上功能最为完善的USB线缆测试设备，深入探讨了其在检测线缆质量、识别连接问题方面的卓越性能。对于经常需要处理各种USB线缆的技术人员和爱好者而言，这款测试仪堪称解决线缆疑难杂症的利器。\n\n要点：\n- USB线缆测试仪能够精确检测线缆的通断情况、阻抗匹配以及数据传输能力\n- 设备支持多种USB规格，包括USB 2.0、USB 3.0和USB-C等不同类型\n- 对于排查线缆故障、验证线缆真伪以及保障设备安全具有重要实用价值"
+  },
+  "https://blog.xoria.org/terminal-colors/": {
+    "zh_title": "如何为CLI应用程序选择颜色（2023）",
+    "zh_summary": "本文探讨了在命令行界面应用程序中合理运用颜色的原则与实践方法，帮助开发者提升CLI工具的可用性和用户体验，同时避免常见的色彩使用误区。\n\n要点：\n- 遵循色彩可访问性标准，确保色盲用户和不同环境下的可读性\n- 采用语义化配色方案，通过颜色传达有意义的状态信息\n- 尊重终端默认配色，提供灵活的配色方案以适应不同用户的偏好设置"
+  },
+  "https://dev.to/art_light/should-junior-developers-still-learn-javascript-the-hard-way-4j0l": {
+    "zh_title": "初级开发者还应该通过“艰难方式”学习JavaScript吗？",
+    "zh_summary": "本文探讨初级开发者学习JavaScript的最佳方式，强调主动学习和深入实践的重要性。文章指出，观看快进教程和复制粘贴代码并非有效学习方法，建议通过项目、调试和反复练习来真正掌握JavaScript，从而避免表面学习，提升编程能力。\n\n要点：\n- 主动学习比被动观看教程更有效，能加深对概念的理解。\n- 实践和挑战是掌握JavaScript的关键，通过解决实际问题来巩固知识。\n- 避免依赖复制粘贴，以培养独立思考和解决问题的能力。"
+  },
+  "https://dev.to/richardpascoe/the-internets-addiction-to-being-contrary-42ni": {
+    "zh_title": "互联网沉迷于唱反调",
+    "zh_summary": "近年来，许多在线讨论不再像真正的讨论，而是经常演变为对立和反驳，缺乏建设性对话。这种现象源于人们对即时反馈的追求和社交媒体的特性，导致讨论质量下降。\n\n要点：\n- 在线讨论往往情绪化，缺乏理性分析，容易升级为争吵。\n- 参与者更注重赢得辩论或表达观点，而非寻求共识或理解。\n- 社交媒体算法和平台设计加剧了信息茧房效应，使对立更加极端。"
   }
 }
